@@ -12,8 +12,6 @@
 [Tree](https://github.com/CUmut/Data-Structures-and-Algorithms/tree/master/Tree)<br/>
 
 
-Aşağıdaki kaynaklardan basit düzeyde türkçe diline çevrilerek eklenmiştir.
-
 # Resources
 
 [GeekforGeeks](https://www.geeksforgeeks.org/data-structures/?ref=shm)<br/>
