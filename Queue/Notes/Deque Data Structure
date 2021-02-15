@@ -1,0 +1,33 @@
+Deque or Double Ended Queue is a type of queue in which insertion and removal of elements can be performed from either from the front or rear.
+Thus, it does not follow FIFO rule (First In First Out).
+
+Types of Deque
+
+    Input Restricted Deque
+    In this deque, input is restricted at a single end but allows deletion at both the ends.
+    Output Restricted Deque
+    In this deque, output is restricted at a single end but allows insertion at both the ends.
+
+Deque veya Double Ended Queue, öğelerin eklenmesinin ve kaldırılmasının önden veya arkadan gerçekleştirilebildiği bir kuyruk türüdür.
+Bu nedenle FIFO kuralını (İlk Giren İlk Çıkar) takip etmez.
+
+Deque Türleri
+
+    Giriş Sınırlandırılmış Geriye Döndürme
+    Bu gecikmede , giriş tek bir uçta kısıtlanır, ancak her iki uçta da silmeye izin verir.
+    Çıktı Kısıtlı Deque
+    Bu gecikmede , çıktı tek bir uçta sınırlandırılır, ancak her iki uçta da yerleştirmeye izin verir.
+
+
+Applications of Deque Data Structure
+    In undo operations on software.
+    To store history in browsers.
+    For implementing both stacks and queues.
+
+
+ Deque Data Yapısının Uygulamaları
+        Yazılım üzerindeki geri alma işlemlerinde.
+        Geçmişi tarayıcılarda saklamak için.
+        Her iki uygulanması için yığınlarını ve sıraları .
+
+

@@ -1,0 +1,18 @@
+A binary tree is a tree data structure in which each parent node can have at most two children.
+----TR----
+İkili ağaç, her bir ana düğümün en fazla iki çocuğa sahip olabileceği bir ağaç veri yapısıdır.
+
+
+Binary Tree Applications
+    For easy and quick access to data
+    In router algorithms
+    To implement heap data structure
+    Syntax tree
+
+----TR----
+
+İkili Ağaç Uygulamaları
+    Verilere kolay ve hızlı erişim için
+    Yönlendirici algoritmalarında
+    Yığın veri yapısını uygulamak için
+    Sözdizimi ağacı

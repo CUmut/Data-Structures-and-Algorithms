@@ -1,0 +1,22 @@
+A linked list data structure includes a series of connected nodes.
+Here, each node store the data and the address of the next node.
+You have to start somewhere, so we give the address of the first node a special name called HEAD.
+Also, the last node in the linked list can be identified because its next portion points to NULL.
+
+Bağlantılı bir liste veri yapısı, bir dizi bağlı düğüm içerir.
+Burada her bir düğüm, bir sonraki düğümün verilerini ve adresini depolar.
+Bir yerden başlamalısınız, bu yüzden ilk düğümün adresine özel bir ad veriyoruz. HEAD.
+Ayrıca, bağlantılı listedeki son düğüm, bir sonraki bölümü şuna işaret ettiği için tanımlanabilir: NULL.
+
+
+Linked List Applications
+    Dynamic memory allocation
+    Implemented in stack and queue
+    In undo functionality of softwares
+    Hash tables, Graphs
+
+Bağlantılı Liste Uygulamaları
+    Dinamik bellek ayırma
+    Yığın ve kuyrukta uygulanır
+    Gelen geri alma yazılımların işlevselliği
+    Karma tablolar, Grafikler

@@ -1,0 +1,22 @@
+Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+
+    It is called a binary tree because each tree node has a maximum of two children.
+    It is called a search tree because it can be used to search for the presence of a number in O(log(n)) time.
+
+The properties that separate a binary search tree from a regular binary tree is
+
+    All nodes of left subtree are less than the root node
+    All nodes of right subtree are more than the root node
+    Both subtrees of each node are also BSTs i.e. they have the above two properties
+
+Binary Search Tree Applications
+
+    In multilevel indexing in the database
+    For dynamic sorting
+    For managing virtual memory areas in Unix kernel
+
+İkili Arama Ağacı Uygulamaları
+
+    Veritabanında çok düzeyli indekslemede
+    Dinamik sıralama için
+    Unix çekirdeğindeki sanal bellek alanlarını yönetmek için

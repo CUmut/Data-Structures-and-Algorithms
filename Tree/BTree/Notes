@@ -1,0 +1,35 @@
+Why B-tree?
+
+The need for B-tree arose with the rise in the need for lesser time in accessing the physical storage media like a hard disk. The secondary storage devices are slower with a larger capacity. There was a need for such types of data structures that minimize the disk accesses.
+
+Other data structures such as a binary search tree, avl tree, red-black tree, etc can store only one key in one node.
+If you have to store a large number of keys, then the height of such trees becomes very large and the access time increases.
+
+However, B-tree can store many keys in a single node and can have multiple child nodes.
+This decreases the height significantly allowing faster disk accesses.
+
+----TR----
+
+Neden B-ağacı?
+
+B-ağacına duyulan ihtiyaç, bir sabit disk gibi fiziksel depolama ortamına erişimde daha az zamana duyulan ihtiyacın artmasıyla ortaya çıktı.
+İkincil depolama cihazları, daha büyük kapasiteyle daha yavaştır.
+Disk erişimini en aza indiren bu tür veri yapılarına ihtiyaç vardı.
+
+İkili arama ağacı, avl ağacı, kırmızı-siyah ağaç vb. Gibi diğer veri yapıları, bir düğümde yalnızca bir anahtar depolayabilir.
+Çok sayıda anahtar saklamanız gerekiyorsa, bu tür ağaçların yüksekliği çok büyür ve erişim süresi artar.
+
+Bununla birlikte, B-tree birçok anahtarı tek bir düğümde saklayabilir ve birden çok alt düğüme sahip olabilir.
+Bu, yüksekliği önemli ölçüde azaltır ve daha hızlı disk erişimine izin verir.
+
+B Tree Applications
+
+    databases and file systems
+    to store blocks of data (secondary storage media)
+    multilevel indexing
+
+----TR----
+B Ağaç Uygulamaları
+    veritabanları ve dosya sistemleri
+    veri bloklarını depolamak için (ikincil depolama ortamı)
+    çok düzeyli indeksleme

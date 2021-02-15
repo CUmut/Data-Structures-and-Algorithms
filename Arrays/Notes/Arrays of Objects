@@ -1,0 +1,14 @@
+An array of objects is created just like an array of primitive type data items in the following way.
+
+Student[] arr = new Student[7]; //student is a user-defined class
+
+The studentArray contains seven memory spaces each of size of student class in which the address of seven Student objects can be stored.
+The Student objects have to be instantiated using the constructor of the Student class and their references should be assigned to the array elements in the following way.
+
+------------TR----------------
+
+StudentArray, yedi Student nesnesinin adresinin saklanabileceği her bir öğrenci sınıfı boyutunda yedi bellek alanı içerir.
+Student nesneleri, Student sınıfının yapıcısı kullanılarak somutlaştırılmalı ve bunların referansları,
+içindeki dizi öğelerine atanmalıdır.
+
+Example ==> Student Class

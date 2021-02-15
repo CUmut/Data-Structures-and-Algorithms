@@ -1,0 +1,70 @@
+Queue Data Structure
+
+A queue is a useful data structure in programming.
+It is similar to the ticket queue outside a cinema hall, where the first person entering the queue is the first person who gets the ticket.
+Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
+
+Kuyruk, programlamada yararlı bir veri yapısıdır.
+Bu,sinema salonunun dışındaki bilet kuyruğuna benzer, burada sıraya ilk giren kişi bileti alır.
+
+Kuyruk, İlk Giren İlk Çıkar (FIFO) kuralını izler - ilk giren öğe ilk çıkan öğedir.
+
+
+Basic Operations of Queue
+A queue is an object (an abstract data structure - ADT) that allows the following operations:
+
+    Enqueue: Add an element to the end of the queue
+    Dequeue: Remove an element from the front of the queue
+    IsEmpty: Check if the queue is empty
+    IsFull: Check if the queue is full
+    Peek: Get the value of the front of the queue without removing it
+
+
+Temel Kuyruk İşlemleri
+
+Kuyruk, aşağıdaki işlemlere izin veren bir nesnedir (soyut bir veri yapısı - ADT):
+     Sırala: Sıranın sonuna bir öğe ekleyin
+     Sıradan çıkarma: Sıranın önünden bir öğeyi kaldırın
+     IsEmpty: Kuyruğun boş olup olmadığını kontrol edin
+     IsFull: Kuyruğun dolu olup olmadığını kontrol edin
+     Göz at: Sıranın ön kısmının değerini çıkarmadan alın
+
+Working of Queue
+     Queue operations work as follows:
+         two pointers FRONT and REAR
+         FRONT track the first element of the queue
+         REAR track the last element of the queue
+         initially, set value of FRONT and REAR to -1
+
+Kuyruğun Çalışması
+Kuyruk işlemleri şu şekilde çalışır:
+     iki işaretçi ÖN ve ARKA
+     ÖN kuyruğun ilk öğesini takip edin
+     REAR kuyruğun son öğesini takip eder
+     başlangıçta FRONT ve REAR değerini -1 olarak ayarlayın
+
+
+Enqueue Operation
+    check if the queue is full
+    for the first element, set the value of FRONT to 0
+    increase the REAR index by 1
+    add the new element in the position pointed to by REAR
+
+Ekleme İşlemi
+     sıranın dolu olup olmadığını kontrol edin
+     ilk öğe için FRONT değerini 0 olarak ayarlayın
+     REAR endeksini 1 artır
+     REAR ile gösterilen konuma yeni elemanı ekleyin
+
+Dequeue Operation
+    check if the queue is empty
+    return the value pointed by FRONT
+    increase the FRONT index by 1
+    for the last element, reset the values of FRONT and REAR to -1
+
+Sıradan Çıkarma İşlemi
+    sıranın boş olup olmadığını kontrol edin
+    ile gösterilen değeri döndür ÖN
+    artırmak ÖN 1'e göre dizin
+    son eleman için değerlerini sıfırlayın ÖN ve ARKA 1'e
+

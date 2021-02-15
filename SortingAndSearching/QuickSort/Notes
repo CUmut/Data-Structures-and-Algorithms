@@ -1,0 +1,25 @@
+Quicksort is an algorithm based on divide and conquer approach in which the array is split into subarrays and these sub-arrays are recursively called to sort the elements.
+
+How SortingAndSearching.QuickSort Works?
+   1. A pivot element is chosen from the array. You can choose any element from the array as the pivot element.
+    Here, we have taken the rightmost (ie. the last element) of the array as the pivot element.
+
+  2.The elements smaller than the pivot element are put on the left and the elements greater than the pivot element are put on the right.
+
+
+3.Pivot elements are again chosen for the left and the right sub-parts separately.
+Within these sub-parts, the pivot elements are placed at their right position. Then, step 2 is repeated.
+
+4.The sub-parts are again divided into smaller sub-parts until each subpart is formed of a single element.
+5.At this point, the array is already sortedx.
+
+---TR----
+Quicksort, dizinin alt dizilere bölündüğü ve bu alt dizilerin öğeleri sıralamak için özyinelemeli olarak çağrıldığı böl ve yönet yaklaşımına dayalı bir algoritmadır.
+SortingAndSearching.QuickSort Nasıl Çalışır?
+
+    Diziden bir pivot öğesi seçilir. Dizideki herhangi bir öğeyi pivot öğesi olarak seçebilirsiniz.
+    Pivot öğesinden daha küçük olan öğeler sola, pivot öğesinden büyük olan öğeler sağ tarafa yerleştirilir.
+    Pivot elemanına bir işaretçi sabitlenmiştir. Pivot öğesi, ilk dizinden başlayarak öğelerle karşılaştırılır. Pivot öğesinden daha büyük öğeye ulaşılırsa, bu öğe için ikinci bir işaretçi ayarlanır.
+    Şimdi, pivot öğesi diğer öğelerle karşılaştırılır (üçüncü bir işaretçi). Pivot öğesinden daha küçük bir öğeye ulaşılırsa, daha küçük olan öğe, daha önce bulunan daha büyük öğeyle değiştirilir.
+    şlem, ikinci son elemana ulaşılana kadar devam eder.
+    Son olarak, pivot elemanı ikinci işaretçi ile değiştirilir.

@@ -1,0 +1,49 @@
+Simple Queue
+
+In a simple queue, insertion takes place at the rear and removal occurs at the front.
+It strictly follows the FIFO (First in First out) rule.
+----TR----
+Basit Sıra
+Basit bir kuyrukta, yerleştirme arkada gerçekleşir ve çıkarma işlemi önde gerçekleşir.
+Kesinlikle FIFO (İlk Giren İlk Çıkar) kuralını takip eder.
+
+
+Circular Queue
+
+In a circular queue, the last element points to the first element making a circular link.
+
+The main advantage of a circular queue over a simple queue is better memory utilization.
+If the last position is full and the first position is empty, we can insert an element in the first position.
+This action is not possible in a simple queue.
+
+----TR----
+Dairesel Sıra
+
+Dairesel bir kuyrukta, son öğe, dairesel bir bağlantı oluşturan ilk öğeye işaret eder.
+Dairesel bir kuyruğun basit bir kuyruğa göre temel avantajı daha iyi bellek kullanımıdır.
+Son konum doluysa ve ilk konum boşsa, ilk konuma bir eleman ekleyebiliriz.
+Bu işlem basit bir kuyrukta mümkün değildir.
+
+
+Priority Queue
+
+A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority.
+If elements with the same priority occur, they are served according to their order in the queue.
+Insertion occurs based on the arrival of the values and removal occurs based on priority.
+
+----TR----
+Öncelik Kuyruğu
+
+Öncelik sırası, her bir öğenin bir öncelik ile ilişkilendirildiği ve önceliğine göre sunulduğu özel bir kuyruk türüdür.
+Aynı önceliğe sahip öğeler ortaya çıkarsa, bunlar kuyruktaki sıralarına göre sunulur.
+Ekleme, değerlerin gelişine bağlı olarak gerçekleşir ve çıkarma önceliğe göre gerçekleşir.
+
+
+Deque (Double Ended Queue)
+
+In a double ended queue, insertion and removal of elements can be performed from either from the front or rear.
+Thus, it does not follow the FIFO (First In First Out) rule.
+----TR----
+Deque (Çift Uçlu Sıra)
+Çift uçlu bir kuyrukta, elemanların takılması ve çıkarılması önden veya arkadan yapılabilir.
+Bu nedenle FIFO (İlk Giren İlk Çıkar) kuralına uymaz.

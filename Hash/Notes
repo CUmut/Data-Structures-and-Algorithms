@@ -1,0 +1,41 @@
+Hash table is a data structure that represents data in the form of key-value pairs.
+Each key is mapped to a value in the hash table.
+The keys are used for indexing the values/data. A similar approach is applied by an associative array.
+
+Data is represented in a key value pair with the help of keys as shown in the figure below.
+Each data is associated with a key.
+The key is an integer that point to the data.
+Direct Address Table
+
+Direct address table is used when the amount of space used by the table is not a problem for the program. Here, we assume that
+
+    the keys are small integers
+    the number of keys is not too large, and
+    no two data have the same key
+
+Hash Table
+
+In a hash table, the keys are processed to produce a new index that maps to the required element.
+This process is called hashing.
+
+Limitations of a Hash Table
+
+    If the same index is produced by the hash function for multiple keys then, conflict arises. This situation is called collision.
+    To avoid this, a suitable hash function is chosen. But, it is impossible to produce all unique keys because |U|>m. Thus a good hash function may not prevent the collisions completely however it can reduce the number of collisions.
+However, we have other techniques to resolve collision.
+
+Advantages of hash table over direct address table:
+
+The main issues with direct address table are the size of the array and the possibly large value of a key.
+The hash function reduces the range of index and thus the size of the array is also reduced.
+
+Collision resolution by chaining
+In this technique, if a hash function produces the same index for multiple elements, these elements are stored in the same index by using a doubly linked list.
+
+
+Hash Table Applications
+
+Hash tables are implemented where
+    constant time lookup and insertion is required
+    cryptographic applications
+    indexing data is required

@@ -1,0 +1,9 @@
+A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children.
+
+It is also known as a proper binary tree.
+full binary tree
+
+-----TR-----
+Tam bir İkili ağaç, her ana düğümün / dahili düğümün iki çocuğu olduğu veya hiç çocuğu olmadığı özel bir ikili ağaç türüdür.
+Aynı zamanda uygun bir ikili ağaç olarak da bilinir .
+

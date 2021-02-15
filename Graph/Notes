@@ -1,0 +1,64 @@
+A graph is a data structure that consists of the following two components:
+1. A finite set of vertices also called as nodes.
+2. A finite set of ordered pair of the form (u, v) called as edge
+
+Following is an example of an undirected graph with 5 vertices.
+
+The following two are the most commonly used representations of a graph.
+1. Adjacency Matrix
+2. Adjacency List
+
+--------
+Adjacency Matrix:
+Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph.
+Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j.
+Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs.
+If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.
+
+Adjacency List:
+An array of lists is used. The size of the array is equal to the number of vertices. Let the array be an array[].
+An entry array[i] represents the list of vertices adjacent to the ith vertex.
+This representation can also be used to represent a weighted graph.
+The weights of edges can be represented as lists of pairs.
+
+An adjacency list is efficient in terms of storage because we only need to store the values for the edges.
+For a sparse graph with millions of vertices and edges, this can mean a lot of saved space.
+
+
+Depth First Search Algorithm
+
+A standard DFS implementation puts each vertex of the graph into one of two categories:
+
+    Visited
+    Not Visited
+
+The purpose of the algorithm is to mark each vertex as visited while avoiding cycles.
+
+The DFS algorithm works as follows:
+
+    Start by putting any one of the graph's vertices on top of a stack.
+    Take the top item of the stack and add it to the visited list.
+    Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top of the stack.
+    Keep repeating steps 2 and 3 until the stack is empty.
+
+-------
+BFS algorithm
+
+A standard BFS implementation puts each vertex of the graph into one of two categories:
+
+    Visited
+    Not Visited
+
+The purpose of the algorithm is to mark each vertex as visited while avoiding cycles.
+
+The algorithm works as follows:
+
+    Start by putting any one of the graph's vertices at the back of a queue.
+    Take the front item of the queue and add it to the visited list.
+    Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back of the queue.
+    Keep repeating steps 2 and 3 until the queue is empty.
+
+The graph might have two different disconnected parts so to make sure that we cover every vertex, we can also run the BFS algorithm on every node.
+
+
+

@@ -1,0 +1,7 @@
+Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm.
+
+Here, a problem is divided into multiple sub-problems. Each sub-problem is solved individually.
+Finally, sub-problems are combined to form the final solution.
+
+The SortingAndSearching.MergeSort function repeatedly divides the array into two halves until we reach a stage where we try to perform SortingAndSearching.MergeSort on a subarray of size 1 i.e. p == r.
+After that, the merge function comes into play and combines the sorted arrays into larger arrays until the whole array is merged.

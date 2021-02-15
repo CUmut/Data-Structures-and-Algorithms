@@ -1,0 +1,11 @@
+A balanced binary tree, also referred to as a height-balanced binary tree, is defined as a binary tree in which the height of the left and right subtree of any node differ by not more than 1.
+    difference between the left and the right subtree for any node is not more than one
+    the left subtree is balanced
+    the right subtree is balanced
+
+
+Yüksekliği dengeli ikili ağaç olarak da adlandırılan dengeli bir ikili ağaç, herhangi bir düğümün sol ve sağ alt ağacının yüksekliğinin 1'den fazla farklı olmadığı bir ikili ağaç olarak tanımlanır.
+
+    herhangi bir düğüm için sol ve sağ alt ağaç arasındaki fark birden fazla değil
+    sol alt ağaç dengelidir
+    doğru alt ağaç dengeli

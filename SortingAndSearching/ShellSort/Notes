@@ -1,0 +1,12 @@
+Shell sort is an algorithm that first sorts the elements far apart from each other and successively reduces the interval between the elements to be sorted.
+It is a generalized version of insertion sort.
+
+In shell sort, elements at a specific interval are sorted.
+The interval between the elements is gradually decreased based on the sequence used.
+The performance of the shell sort depends on the type of sequence used for a given input array.
+
+---TR---
+Kabuk sıralama, önce öğeleri birbirinden uzakta sıralayan ve sıralanacak öğeler arasındaki aralığı art arda azaltan bir algoritmadır. Ekleme sıralamanın genelleştirilmiş bir versiyonudur.
+
+Kabuk sıralamasında, belirli bir aralıktaki öğeler sıralanır. Öğeler arasındaki aralık, kullanılan sıraya göre kademeli olarak azaltılır.
+Kabuk sıralamasının performansı, belirli bir girdi dizisi için kullanılan dizi türüne bağlıdır.

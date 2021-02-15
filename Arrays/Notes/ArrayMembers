@@ -1,0 +1,5 @@
+Now as you know that arrays are object of a class and direct superclass of arrays is class Object.The members of an array type are all of the following:
+
+    The public final field length, which contains the number of components of the array. length may be positive or zero.
+    All the members inherited from class Object; the only method of Object that is not inherited is its clone method.
+    The public method clone(), which overrides clone method in class Object and throws no checked exceptions.

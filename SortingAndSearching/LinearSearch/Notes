@@ -1,0 +1,6 @@
+Linear search is the simplest searching algorithm that searches for an element in a list in sequential order.
+We start at one end and check every element until the desired element is not found.
+
+---TR---
+Doğrusal arama, bir listedeki bir öğeyi sıralı sırayla arayan en basit arama algoritmasıdır.
+Bir uçtan başlıyoruz ve istenen öğe bulunmayana kadar her öğeyi kontrol ediyoruz.

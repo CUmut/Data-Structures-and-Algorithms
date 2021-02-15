@@ -1,0 +1,63 @@
+A stack is a useful data structure in programming. It is just like a pile of plates kept on top of each other.
+----TR-----
+Yığın, programlamada yararlı bir veri yapısıdır. Tıpkı üst üste tutulan tabak yığını gibidir.
+
+Think about the things you can do with such a pile of plates
+
+    Put a new plate on top
+    Remove the top plate
+
+If you want the plate at the bottom, you must first remove all the plates on top.
+Such an arrangement is called Last In First Out - the last item that is the first item to go out.
+
+----TR-----
+
+Böyle bir yığın tabakla yapabileceğiniz şeyleri düşünün
+     Üstüne yeni bir tabak koyun
+     Üst plakayı çıkarın
+
+Plakayı altta isterseniz, önce üstteki tüm plakaları çıkarmanız gerekir.
+Böyle bir düzenlemeye * Son Giren İlk Çıkar *  denir.
+
+-----TR-----
+
+In programming terms, putting an item on top of the stack is called push and removing an item is called pop.
+Programlama da yığına (stack) yeni bir eleman eklemeye push , çıkarılan eleman için pop işlemi denir / yapılır.
+
+
+A stack is an object (an abstract data type - ADT) that allows the following operations:
+    Push: Add an element to the top of a stack
+    Pop: Remove an element from the top of a stack
+    IsEmpty: Check if the stack is empty
+    IsFull: Check if the stack is full
+    Peek: Get the value of the top element without removing it
+
+-----TR-----
+ Yığın, aşağıdaki işlemlere izin veren bir nesnedir (soyut bir veri türü - ADT):
+        İtme: Bir yığının üstüne bir öğe ekleyin
+        Pop: Bir yığının üstünden bir öğeyi kaldırın
+        IsEmpty: Yığının boş olup olmadığını kontrol edin
+        IsFull: Yığının dolu olup olmadığını kontrol edin
+        Peek: Üstteki öğenin değerini çıkarmadan alın
+
+
+Applications of Stack Data Structure
+
+Although stack is a simple data structure to implement, it is very powerful. The most common uses of a stack are:
+
+    To reverse a word - Put all the letters in a stack and pop them out.
+    Because of the LIFO order of stack, you will get the letters in reverse order.
+    In compilers - Compilers use the stack to calculate the value of expressions like 2 + 4 / 5 * (7 - 9) by converting the expression to prefix or postfix form.
+    In browsers - The back button in a browser saves all the URLs you have visited previously in a stack.
+    Each time you visit a new page, it is added on top of the stack.
+    When you press the back button, the current URL is removed from the stack, and the previous URL is accessed.
+
+ -----TR-----
+
+ Yığın Veri Yapısının Uygulamaları
+
+ Yığın, uygulanması basit bir veri yapısı olmasına rağmen, çok güçlüdür. Bir yığının en yaygın kullanımları şunlardır:
+      Bir kelimeyi tersine çevirmek için - Tüm harfleri bir yığına koyun ve çıkarın. LIFO yığın sırası nedeniyle, harfleri ters sırada alacaksınız.
+      Derleyicilerde - Derleyiciler, ifadeyi önek veya sonek formuna dönüştürerek 2 + 4/5 * (7-9) gibi ifadelerin değerini hesaplamak için yığını kullanır.
+      Tarayıcılarda - Bir tarayıcıdaki geri düğmesi, daha önce ziyaret ettiğiniz tüm URL'leri bir yığın halinde kaydeder. Yeni bir sayfayı her ziyaret ettiğinizde, yığının üstüne eklenir.
+      Geri düğmesine bastığınızda, mevcut URL yığından kaldırılır ve önceki URL'ye erişilir.

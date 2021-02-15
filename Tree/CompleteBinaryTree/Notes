@@ -1,0 +1,13 @@
+x A complete binary tree is a binary tree in which all the levels are completely filled except possibly the lowest one, which is filled from the left.
+
+  A complete binary tree is just like a full binary tree, but with two major differences
+
+      All the leaf elements must lean towards the left.
+      The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.
+
+Tam bir ikili ağaç, soldan doldurulmuş, muhtemelen en alttaki hariç tüm seviyelerin tamamen doldurulduğu bir ikili ağaçtır.
+
+Tam bir ikili ağaç, tam bir ikili ağaç gibidir, ancak iki büyük fark vardır
+
+    Tüm yaprak elemanları sola doğru eğilmelidir.
+    Son yaprak öğesinin bir doğru kardeşi olmayabilir, yani tam bir ikili ağacın tam bir ikili ağaç olması gerekmez.
