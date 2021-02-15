@@ -18,4 +18,24 @@ Heap Property is the property of a node in which
      Heap is used while implementing a priority queue.
      Dijkstra’s Algorithm
      Heap Sort
+     
+---TR---
+     
+Yığın veri yapısı, öbek özelliğini karşılayan tam bir ikili ağaçtır. Aynı zamanda ikili yığın olarak da adlandırılır.
+
+Tam bir ikili ağaç, içinde özel bir ikili ağaçtır.
+     muhtemelen son hariç her seviye doldurulur
+     tüm düğümler olabildiğince solda
+
+Heap Property, içinde bir düğümün özelliğidir.
+  (maks yığın için) her düğümün anahtarı her zaman alt düğümlerinden daha büyüktür ve kök düğümün anahtarı, diğer tüm düğümler arasında en büyüğüdür;
+  Her bir düğümün (min heap için) anahtarı her zaman alt düğümden / düğümlerden daha küçüktür ve kök düğümün anahtarı diğer tüm düğümler arasında en küçük olanıdır.
+
+  Yığınla;
+  Heapify, ikili bir ağaçtan bir yığın veri yapısı oluşturma işlemidir. Min-Heap veya Max-Heap oluşturmak için kullanılır.
+
+  Yığın Veri Yapısı Uygulamaları;
+      Yığın, bir öncelik kuyruğu uygulanırken kullanılır.
+      Dijkstra Algoritması
+      Yığın Sıralama 
 
